@@ -45,7 +45,10 @@
       width: 100%;
       height: 463px;
       text-align: center;
-      font-size: 50px;
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .main {
@@ -66,30 +69,6 @@
       flex-direction: column;
       display: flex;
     }
-
-    .someinfo {
-      display: flex;
-      align-items: center;
-      flex-grow: 1;
-    }
-
-    .someinfo .someinfo-content {
-      width: 1000px;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-      text-align: center;
-    }
-
-    .footer-content {
-      padding: 15px 0 15px 0;
-      border-top: solid 1px #ddd;
-      background-color: #eee;
-      text-align: center;
-      height: 168px;
-      color: #212529;
-    }
   </style>
 </head>
 
@@ -102,14 +81,9 @@
         <p>wuwenliangx@outlook.com</p>
       </div>
     </div>
-    <div class="main"></div>
+    <div class="main">
+    </div>
     <div id="footer">
-      <div class="someinfo">
-        <div class="someinfo-content">
-          <h1>wuwenliangx.github.io</h1>
-        </div>
-      </div>
-      <footer class="footer-content">2021-04-23</footer>
     </div>
   </main>
 </body>
